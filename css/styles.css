@@ -39,8 +39,12 @@ body {
   letter-spacing: 0.02em;
 }
 
+.nav-item {
+  color: #2e2f42;
+}
+
 .nav-item:hover,
-.navigation:focus {
+.nav-item:focus {
   color: var(--ocean, #404bbf);
   /* Body Medium */
   font-size: 16px;
@@ -103,13 +107,13 @@ body {
 
 .section-title {
   /* Header 2 */
+  color: #2e2f42;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11; /* 111.111% */
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2e2f42;
 }
 
 .section-inner-title {
